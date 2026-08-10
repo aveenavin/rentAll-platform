@@ -91,7 +91,7 @@ const Home = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* Headline */}
-          <motion.h1 variants={fadeInUp} className="text-[42px] leading-[1.1] sm:text-7xl font-black tracking-tighter sm:leading-[1.05] mb-3 sm:mb-6">
+          <motion.h1 variants={fadeInUp} className="text-[42px] leading-[1.1] sm:text-[85px] font-black tracking-tighter sm:leading-[1.05] mb-3 sm:mb-6">
             {/* Mobile: original 2-line layout */}
             <span className="block sm:hidden text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-slate-400">Complete Rental Management</span>
             {/* Desktop: 3-line layout */}
