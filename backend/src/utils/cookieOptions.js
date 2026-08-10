@@ -11,8 +11,9 @@ const isProduction = () => process.env.NODE_ENV === 'production';
  */
 const getSameSite = () => {
   const override = process.env.COOKIE_SAME_SITE;
-  if (override === 'none' && isProduction()) return 'none';
-  return isProduction() ? 'strict' : 'lax';
+  if (override) return override;
+  // Default to 'none' in production for cross-site cookies (Vercel frontend -> Render backend)
+  return isProduction() ? 'none' : 'lax';
 };
 
 const accessTokenCookieOptions = () => ({
