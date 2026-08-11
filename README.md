@@ -2,6 +2,32 @@
 
 A full-stack  rental management platform built with the MERN stack. RentAll enables rental businesses to manage their Item inventory, process bookings, handle returns and inspections, track maintenance, and record payments : all through role-based portals for administrators, staff, and customers.
 
+[Live Demo](https://rentall-platform.vercel.app)  
+[GitHub Repository](https://github.com/aveenavin/rentAll-platform)
+
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?logo=cloudinary&logoColor=white)
+![Brevo](https://img.shields.io/badge/Brevo-009286?logo=brevo&logoColor=white)
+
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [User Roles](#user-roles)
+- [Application Workflow](#application-workflow)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
+- [API Overview](#api-overview)
+- [Security](#security)
+- [Production Deployment](#production-deployment)
+- [Screenshots](#screenshots)
+- [Future Improvements](#future-improvements)
+
 ---
 
 ## Features
@@ -404,50 +430,64 @@ The `vercel.json` in the frontend directory handles SPA routing rewrites.
 ### Landing Page
 
  Overview with responsive UI.
+
 ![ Landing Page](screenshots/IMG_20260808_203159.jpg)
 
-### Dashboards
 
-**Customer Dashboard &  Admin Dashboard**  
-Comprehensive overview with responsive UI.
+### Dashboards
+Customer Dashboard &  Admin Dashboard comprehensive overview with responsive UI.
+
 ![ Dashboard](screenshots/IMG_20260808_203052.jpg)
 
 
 ### Customer Catalog & Booking Interface
 **Customer Item Catalog**  
+
 ![Item Catalog](screenshots/IMG_20260808_222820.jpg)
+
 **Customer Booking**  
+
 ![Item Booking](screenshots/IMG_20260808_222853.jpg)
+
 **Customer Booking Details**  
+
 ![Item Details](screenshots/IMG_20260808_223000.jpg)
+
 **Invoice**  
+
 ![Item Invoice](screenshots/IMG_20260808_224213.png)
 
 ### Admin 
 **Admin Item Catalog**  
+
 Manage retal items and view their complete details.
 ![Item Catalog](screenshots/IMG_20260809_162035.jpg)
 
 ### Rental Management Workflow
 **Rentals Overview**  
 Centralized management of all rental requests and their current statuses.
+
 ![Admin Rentals Management](screenshots/IMG_20260809_162058.jpg)
 
 **Returns Details & Processing Returns Timeline**  
 Detailed view of a Returns's history and status progression.
+
 ![Returns Details](screenshots/IMG_20260809_162122.jpg)
 
 **Add & Maintenance Items**  
  maintenance activities to keep track of item health and manage inventory details and images.
+
 ![Add Item Modal & Maintenance Log](screenshots/IMG_20260809_162209.jpg)
 
 **Financials**  
 Record payments and generate printable, itemized invoices.
+
 ![Invoice Generation](screenshots/IMG_20260809_162238.jpg)
 
 ### User Management
 **Customer Directory & Profiles**  
 Manage customer accounts, view their histories, and handle account suspensions.
+
 ![Customer Management](screenshots/IMG_20260809_162309.jpg)
 
 
